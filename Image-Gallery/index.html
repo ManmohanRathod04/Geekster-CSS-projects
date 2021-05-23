@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+
+    <style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .main{
+        width:100%;
+        height:130vh;
+        border:0px solid red;
+        display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: space-around;
+       background-color: salmon;
+    }
+
+    h1{
+      color:#fff;
+        
+    }
+
+    .child-image{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+  
+    .image{
+        height:250px;
+        width:300px;
+        margin: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+
+    .image:hover{
+        transition: 0.5s;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .image a img{
+        border-radius: 5px;
+    }
+    
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <h1>Image-Gallery</h1>
+
+        <div class="child-image">        
+            
+            <div class="image">
+      <a target="_blank" href="img/1.jpg"><img src="img/1.jpg" alt="" height="250" width="300"/></a>
+        </div>
+
+        <div class="image">
+      <a target="_blank" href="img/2.jpg" >  <img src="img/2.jpg" alt="" height="250" width="300" /></a>
+        </div>
+        <div class="image">
+      <a target="_blank" href="img/3.jpg">  <img src="img/3.jpg" alt="" height="250" width="300" /></a>
+        </div>
+        <div class="image">
+      <a target="_blank" href="img/123.jpg">  <img src="img/123.jpg" alt="" height="250" width="300" /></a>
+        </div>
+        
+        
+        
+        <div class="image">
+      <a target="_blank" href="img/124.jpg">  <img src="img/124.jpg" alt="" height="250" width="300" /></a>
+        </div>
+        
+        <div class="image">
+       <a target="_blank" href="img/125.jpg"> <img src="img/125.jpg" alt="" height="250" width="300" /></a>
+            </div>
+        
+        <div class="image">
+      <a target="_blank" href="img/126.jpg">  <img src="img/126.jpg" alt="" height="250" width="300" /></a>
+        </div>
+        
+        <div class="image">
+      <a>  <img src="img/c.jpg" alt="" height="250" width="300"  /></a>
+        </div>
+        
+        
+        <div class="image">
+      <a target="_blank" href="img/hd_9e988b86492818b251bb1ab59f88d4d8.jpg">  <img src="img/hd_9e988b86492818b251bb1ab59f88d4d8.jpg" alt="" height="250" width="300" /></a>
+        </div>
+        
+        <div class="image">
+       <a target="_blank" href="img/hd_b087994ac8dbfc2824cd42448e8c8e76.jpg"> <img src="img/hd_b087994ac8dbfc2824cd42448e8c8e76.jpg" alt="" height="250" width="300" />
+</a>        </div>
+        
+        <div class="image">
+       <a target="_blank" href="img/wallpaperflare.com_wallpaper (2).jpg"> <img src="img/wallpaperflare.com_wallpaper (2).jpg" alt="" height="250" width="300" />
+</a>        </div>
+        
+        <div class="image">
+       <a target="_blank" href="img/wallpaperflare.com_wallpaper (3).jpg"> <img src="img/wallpaperflare.com_wallpaper (3).jpg" alt="" height="250" width="300" />
+</a>        </div>
+
+</div>
+
+        
+</div>
+    
+</body>
+</html>
